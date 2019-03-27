@@ -1,0 +1,8 @@
+$medium-icon-font-path: './TXD_D-Medium';
+@font-face {
+  font-family: TXD_D_Medium;
+  src: url("#{$medium-icon-font-path}.eot");
+  src: url("#{$medium-icon-font-path}.eot?#iefix") format("embedded-opentype"),
+    url("#{$medium-icon-font-path}.ttf") format("truetype"),
+    url("#{$medium-icon-font-path}.woff") format("woff");
+}
